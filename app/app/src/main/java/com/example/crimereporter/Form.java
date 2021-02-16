@@ -131,10 +131,9 @@ public class Form extends AppCompatActivity {
             }
         });
 
-
-
-
     }
+
+    //public void writeNewLocation()
 
     public static class Location {
         double longitude, latitude;
@@ -187,6 +186,8 @@ public class Form extends AppCompatActivity {
         boolean resolved;
         double latitude;
         double longitude;
+
+        double longitude, latitude;
 
         public CrimeReport() {
         }
